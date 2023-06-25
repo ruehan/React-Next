@@ -4,6 +4,7 @@ import css from "styled-jsx/css"
 const style = css`
     a {
         text-decoration: none;
+        color: black;
     }
 `
 

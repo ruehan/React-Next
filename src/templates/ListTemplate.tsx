@@ -14,7 +14,7 @@ export default function ListTemplate() {
             setList(data.results)
         },
         onError: e => {
-            console.log(e.message)
+
         }
     })
 

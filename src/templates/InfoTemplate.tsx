@@ -20,12 +20,11 @@ export default function InfoTemplate() {
 
       },
       onError: e => {
-          console.log(e.message)
+
       }
     })
 
     if (isLoading) return null;
-    if (isError) return <div>{error.message}</div>;
 
     return (
       <>

@@ -23,8 +23,8 @@ const ListType = (props: Props): React.ReactElement => {
     const [listName, setListName] = useRecoilState<string>(InfoState)
 
     const onClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
-        setListName(e.target.innerText)
-        Cookies.set('listName', e.target.innerText)
+        setListName(e.currentTarget.innerText)
+        Cookies.set('listName', e.currentTarget.innerText)
     }
 
     return (

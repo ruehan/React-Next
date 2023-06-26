@@ -38,7 +38,7 @@ const style = css`
 `
 
 type Props = {
-    data: object;
+    data: Array<any>;
     isLoading: boolean;
 }
 
